@@ -33,6 +33,7 @@ export default function App() {
         name=" "
         component={Home}
         options={{
+          headerShown: false,
           tabBarIcon: ({ size, color }) => (
             <Entypo name="home" size={size} color={color} />
           )
@@ -43,6 +44,7 @@ export default function App() {
         name="Cartão"
         component={Card}
         options={{
+          headerShown: false,
           tabBarIcon: ({ size, color }) => (
             <Entypo name="credit-card" size={size} color={color} />
           )
@@ -54,6 +56,7 @@ export default function App() {
         component={New}
         options={{
           tabBarLabel: "",
+          headerShown: false,
           tabBarIcon: ({ focused, size, color }) => (
             <ButtonNew size={size} color={color} />
           )
@@ -64,6 +67,7 @@ export default function App() {
         name="Procurar"
         component={Search}
         options={{
+          headerShown: false,
           tabBarIcon: ({ size, color }) => (
             <Feather name="search" size={size} color={color} />
           )
@@ -74,6 +78,7 @@ export default function App() {
         name="Usuário"
         component={User}
         options={{
+          headerShown: false,
           tabBarIcon: ({ size, color }) => (
             <Feather name="user" size={size} color={color} />
           )
